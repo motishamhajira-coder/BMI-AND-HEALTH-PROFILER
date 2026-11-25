@@ -1,0 +1,11 @@
+com\healthprofiler\BMIServiceTest$HealthyWeightRangeTests.class
+com\healthprofiler\BMIServiceTest$RecommendationTests.class
+com\healthprofiler\BMIServiceTest$WaterRequirementTests.class
+com\healthprofiler\BMIServiceTest$BMIClassificationTests.class
+com\healthprofiler\BMIServiceTest$BMRCalculationTests.class
+com\healthprofiler\BMIServiceTest.class
+com\healthprofiler\BMIServiceTest$TDEECalculationTests.class
+com\healthprofiler\MeasurementConverterTest.class
+com\healthprofiler\BMIServiceTest$BMICalculationTests.class
+com\healthprofiler\BMIControllerIntegrationTest.class
+com\healthprofiler\BMIServiceTest$ConversionIntegrationTests.class
