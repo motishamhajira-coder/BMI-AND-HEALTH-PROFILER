@@ -97,12 +97,8 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Map<String, Object>> handleMessageNotReadable(
             HttpMessageNotReadableException ex) {
 
-        String message = "Request body is malformed or contains an unrecognised value. " +
-                "Accepted weightUnit values: KG, LBS. " +
-                "Accepted heightUnit values: CM, FEET. " +
-                "Accepted sex values: MALE, FEMALE. " +
-                "Accepted activityLevel values: SEDENTARY, LIGHTLY_ACTIVE, " +
-                "MODERATELY_ACTIVE, VERY_ACTIVE, EXTRA_ACTIVE.";
+        String message = "Request body is malformed or contains an unrecognised enum value. " +
+                "Check the accepted values documented for this endpoint.";
 
         Map<String, Object> body = buildErrorBody(HttpStatus.BAD_REQUEST, message, null);
         return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(body);

@@ -1,0 +1,2 @@
+package com.healthprofiler.enums;
+public enum HealthCondition { DIABETES, HIGH_BLOOD_PRESSURE, HEART_DISEASE, THYROID_DISORDERS, ASTHMA, PCOS, OTHER, NO_KNOWN_HEALTH_CONDITIONS }
